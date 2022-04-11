@@ -29,7 +29,7 @@ public class Ejercicio : MonoBehaviour
         }
         else
         {
-            Debug.Log("“Solo puede ingresar T, D, G, M o H.");
+            Debug.Log("Solo puede ingresar T, D, G, M o H.");
         }
         
     }
