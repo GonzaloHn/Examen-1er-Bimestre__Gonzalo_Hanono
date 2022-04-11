@@ -13,11 +13,11 @@ public class Ejercicio : MonoBehaviour
     {
         if (nombre == "")
         {
-            Debug.Log("Por favor, ingrese un nombre real.");
+            Debug.Log("Error. Ingrese un nombre real.");
         }
         else if (año < 1 || año > 5)
         {
-            Debug.Log("El año ingresado no es válido.");
+            Debug.Log("Error. El año ingresado no es válido.");
         }
         else if(año == 1 || año == 2)
         {
